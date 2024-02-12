@@ -29,6 +29,15 @@ async function runProcess() {
 
     // // Access the sentiment score (positive, negative, or neutral)
     console.log(`Sentiment Score: ${result.score}`);
+
+    console.log(result.positive);
+    if (result.positive.length > result.negative.length) {
+      console.log('Positive')
+    } else if (result.negative.length > result.positive.length) {
+      console.log('Negative')
+    } else if (result.negative.length = result.positive.length) {
+      console.log('Neutral')
+    }
   }
 }
 
