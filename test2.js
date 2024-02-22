@@ -1,8 +1,9 @@
+//thus api is down:
 const aztroJs = require("aztro-js");
 //console.log(aztroJs.getTodaysHoroscope);
 
 var request = require('request');
-
+//this api is down, so we will not be usign it
 var options = {
   url: 'https://aztro.sameerkumar.website/?sign=aries&day=today',
   method: 'GET'
